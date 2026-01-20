@@ -113,10 +113,126 @@ nav .menu a {
     color: #469165;
 }
 
-#The-Solution .idea-image {
-   image: url("assets/Info.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+
+#knowledge {
+    padding: 120px 120px ;
+    gap: 150px;
 }
+
+#knowledge .section-heading {
+  max-width: 760px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+
+.section-heading {
+    max-width: 800px;
+    
+}
+
+#knowledge .knowledge-box{
+display: flex;
+gap: 16px;
+padding-top: 50px;
+align-items: center;
+justify-content: center;
+} 
+
+#knowledge .knowledge-container .section-heading{
+    align-items: center;
+} 
+#knowledge .knowledge-container .section-heading h2{
+
+font-size: 48px;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 16px;
+} 
+
+
+
+.knowledge-box .knowledge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.062);
+}
+
+.knowledge-card img {
+    width: 60px;
+    margin-bottom: 16px;
+}
+
+.knowledge-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.knowledge-card p {
+    font-size: 16px;
+    line-height: 32px;
+    color:#627382;
+}
+
+#Solution .Solution-container{
+     width: 1360px;
+    display: flex;
+    justify-items:space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    text-align: left;
+    gap: 80px
+    ; }
+
+ #Solution .section-heading {#
+    max-width: 520px;
+ }
+
+
+ #Solution h4 {
+  color: #22c55e;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+#Solution h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+#Solution p {
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+#Solution ul {
+  list-style: none;
+}
+
+#Solution ul li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #111827;
+}
+
+#Solution ul li img {
+  display: block;
+}
+
